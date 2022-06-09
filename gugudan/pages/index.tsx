@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import { useRouter } from "next/router";
-import { useState, useRef } from "react";
+import React, { useState, useRef } from "react";
 
 type Props = {
   first: number;
